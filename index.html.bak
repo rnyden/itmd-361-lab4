@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+  name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Form</title>
+</head>
+<body>
+  <form method="POST" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+  <h1>Volunteer Form</h1>
+    <fieldset>
+	  <h3>My Info</h3>
+	  <div>
+	    <label>First Name: <input type="text" name="first_name_field" placeholder="first name"></label>
+	  </div>
+	  <div>
+	    <label>Last Name: <input type="text" name="last_name_field" placeholder="last name"></label>
+	  </div>
+	  <div>
+	    <label>Phone Number: <input type="text" name="phone_field" placeholder="phone number"></label>
+	  </div>
+	  <div>
+	    <label>Email Address: <input type="email" name="email_field" placeholder="email"></label>
+	  </div>
+	  <div>
+	    <label>Gender: Male<input type="radio" name="gender_field" value="m"></label>
+		<label>Female<input type="radio" name="gender_field" value="f"></label>
+		<label>Nonbinary<input type="radio" name="gender_field" value="nb"></label>
+		<label>Other<input type="radio" name="gender_field" value="o"></label>
+	  </div>
+	  <div>
+	    <label>Age: Under 18<input type="radio" name="age_field" value="<18"></label>
+		<label>18 - 24<input type="radio" name="age_field" value="18-24"></label>
+		<label>25 - 34<input type="radio" name="age_field" value="25-34"></label>
+		<label>35 - 44<input type="radio" name="age_field" value="35-44"></label>
+		<label>45 - 54<input type="radio" name="age_field" value="45-54"></label>
+		<label>55 - 64<input type="radio" name="age_field" value="55-64"></label>
+		<label>65 and over<input type="radio" name="age_field" value="65+"></label>
+	  </div>
+	</fieldset>
+	<h3>My Availability</h3>
+	<fieldset>
+	  <div>
+	    <p>Days Available:</p>
+	    <label>Sunday<input type="checkbox" name="available_field[]" value="Sun"></label>
+		<label>Monday<input type="checkbox" name="available_field[]" value="Mon"></label>
+		<label>Tuesday<input type="checkbox" name="available_field[]" value="Tues"></label>
+		<label>Wednesday<input type="checkbox" name="available_field[]" value="Wed"></label>
+		<label>Thursday<input type="checkbox" name="available_field[]" value="Thurs"></label>
+		<label>Friday<input type="checkbox" name="available_field[]" value="Fri"></label>
+		<label>Saturday<input type="checkbox" name="available_field[]" value="Sat"></label>
+	  </div>
+	  <div>
+	    <label>Any Comments? <textarea cols="30" rows="10" name="comments_field" placeholder="add comments here"></textarea></label>
+	  </div>
+	</fieldset>
+	<div>
+	  <input type="submit" value="Send Me">
+	</div>
+	
+  </form>
+</body>
+</html>
