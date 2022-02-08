@@ -44,7 +44,7 @@
 	</fieldset>
 	
 	<fieldset>
-	<legend><h3>My Availability</h3><legend>
+	<legend><h3>My Availability</h3></legend>
 	  <div>
 	    <p>Days Available:</p>
 	    <label>Sunday<input type="checkbox" name="available_field[]" value="Sun"></label>
